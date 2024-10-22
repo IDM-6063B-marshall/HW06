@@ -5,7 +5,7 @@ function preload() {
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  background(255, 255, 255);
+  background(190, 190, 190);
 
   //loading the JSON file as an array rather than an object, so we can get its length
   data = Object.values(data);
